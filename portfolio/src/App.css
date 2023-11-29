@@ -1,0 +1,20 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+      'Lucida Sans', Arial, sans-serif;
+  }
+
+body {
+    background-color: whitesmoke;
+    
+  }
+
+.container {
+    display: flexbox;
+    background-image: url("../src/assets/pete-godfrey-unsplash.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+

@@ -11,10 +11,20 @@ body {
     
   }
 
-.container {
-    display: flexbox;
+body {
+    display: flex;
     background-image: url("../src/assets/pete-godfrey-unsplash.jpg");
-    background-size: cover;
+    background-size: cover ;
     background-repeat: no-repeat;
+    height: auto;
   }
 
+.container {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.navbar a {
+    text-decoration: none;
+}

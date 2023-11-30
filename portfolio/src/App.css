@@ -16,7 +16,6 @@ body {
     background-image: url("../src/assets/pete-godfrey-unsplash.jpg");
     background-size: cover ;
     background-repeat: no-repeat;
-    height: auto;
   }
 
 .container {
@@ -27,4 +26,20 @@ body {
 
 .navbar a {
     text-decoration: none;
+}
+
+.img1 {
+  image-rendering: auto;
+  border: black solid 2px;
+  width: 400px;
+  height: auto;
+  margin: 2px;
+}
+
+.img2 {
+  image-rendering: auto;
+  border: black solid 2px;
+  width: 400px;
+  height: auto;
+  margin: 2px;
 }

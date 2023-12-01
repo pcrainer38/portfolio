@@ -1,17 +1,16 @@
 import './App.css';
-import Header from './components/Header';
-import Footer from './components/Footer';
-
+import NavLinks from './components/NavLinks';
 
 function App() {
   return (
     <>
-      <div className='portfolio-app '>
-      
-        <Header />
-      
-        
-      </div>
+  
+    <div className='navigation'>
+      <NavLinks />
+    </div>
+    <div>
+      <h2>Pamela Crainer</h2>
+    </div>
     </>
   );
 }

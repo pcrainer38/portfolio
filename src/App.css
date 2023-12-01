@@ -54,3 +54,12 @@ a {
 #fa {
   font-size: 30px;
 }
+
+.navbar a{
+  color: whitesmoke;
+}
+
+#project a {
+  color: whitesmoke;
+  text-decoration: none;
+}

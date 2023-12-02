@@ -1,5 +1,7 @@
-function NavLinks({ currentPage, handlePageChange }) {
+
+export default function NavLinks({ currentPage, handlePageChange }) {
     return (
+    
         <ul className='nav nav-links'>
             <li className='nav-item'>
                 <a 
@@ -35,6 +37,8 @@ function NavLinks({ currentPage, handlePageChange }) {
             </li>
         </ul>
     )
+   
 }
 
-export default NavLinks;
+
+

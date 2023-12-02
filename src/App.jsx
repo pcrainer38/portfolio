@@ -1,16 +1,16 @@
 import './App.css';
-import NavLinks from './components/NavLinks';
+import Navigation from './components/Navigation';
+
 
 function App() {
   return (
     <>
   
-    <div className='navigation'>
-      <NavLinks />
+    <div className='navigation d-flex justify-content-between'>
+    <h2 id='name'>Pamela Crainer</h2>
+    <Navigation />
     </div>
-    <div>
-      <h2>Pamela Crainer</h2>
-    </div>
+    
     </>
   );
 }

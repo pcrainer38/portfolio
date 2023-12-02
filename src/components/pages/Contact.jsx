@@ -29,7 +29,7 @@ const Contact = () => {
             type="text"
             className="form-control"
             placeholder="Name"
-            aria-label="Username"
+            aria-label="Name"
             aria-describedby="basic-addon1"
             id="username"
             onBlur={blurHandler}
@@ -42,7 +42,7 @@ const Contact = () => {
             type="text"
             className="form-control"
             placeholder="Email"
-            aria-label="Username"
+            aria-label="Email"
             aria-describedby="basic-addon1"
             id="email"
             onBlur={blurHandler}
@@ -62,7 +62,7 @@ const Contact = () => {
         <p id="message-warning">Message is required</p>
         <div>
           <br />
-          <button type="button" class="btn btn-primary">
+          <button type="button" className="btn btn-primary">
             Submit
           </button>
         </div>

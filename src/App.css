@@ -7,11 +7,10 @@
   }
 
 body {
-    background-color: whitesmoke;
+    /* background-color: whitesmoke; */
     background-image: url("../src/assets/pete-godfrey-unsplash.jpg");
-    background-size: 100vw;
+    background-size: 100vw 25vh;
     background-repeat: no-repeat;
-    
 }
 
 .container {
@@ -40,36 +39,53 @@ a {
   margin: 2px;
 }
 
-.navbar a{
-  color: whitesmoke;
+.photo {
+  image-rendering: auto;
+  border: black solid 2px;
+  width: 100px;
+  height: auto;
+  margin: 2px;
+  border-radius: 50%;
 }
 
 .resume {
-  color: whitesmoke;
+  color: #0d6efd;
+}
+
+.nav-links a{
+  color: black;
+  font-weight: bold;
 }
 
 #name {
-  color: #0d6efd;
+  color: black;
   font-family: 'Brygada 1918', serif ;
   font-style: italic;
   font-size: 36px;
 }
 
 #about, #contact {
-  color: whitesmoke;
+  color: #0d6efd;
 }
 
-#fa {
-  font-size: 30px;
+.footer {
+  font-size: 24px;
+  align-items: end;
+  justify-content: center;
 }
-
-
 
 #project a {
-  color: whitesmoke;
+  color: #0d6efd;
   text-decoration: none;
 }
 
 #username-warning, #email-warning, #message-warning {
   display: none;
 }
+
+.container {
+  justify-content: center;
+  align-items: center;
+}
+
+

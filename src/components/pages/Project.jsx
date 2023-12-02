@@ -13,6 +13,10 @@ const Project = () => {
     
                         <img src={img2} alt='movie theater' className='img2 mt-5' />
                         <h5><a href='https://github.com/ashoener/movie-time' target="_blank">Movie Time</a></h5>
+
+                        <img src={img2} alt='movie theater' className='img2 mt-5' />
+                        <h5><a href='https://github.com/ashoener/movie-time' target="_blank">Movie Time</a></h5>
+
                     </div>
                 </div>
             </div>

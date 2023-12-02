@@ -2,13 +2,11 @@
 
 const Resume = () => {
     return (
-
-        <>
-            <div className='resume'>
+        <div>
+            
+            <div className='resume mt-5'>
                 <h2>Key Skills</h2>
-                {/* <div>
-                    <h3>Download my resume <span>here</span>.</h3>
-                </div> */}
+                <br />
                 <div>
                     <h4>Front-end proficiencies</h4>
                     <ul>
@@ -31,8 +29,9 @@ const Resume = () => {
                         <li>MongoDB, Mongoose</li>
                     </ul>
                 </div>
+                <h5>Download my resume <span><a href='../src/assets/resume.pdf' target='_blank'>here.</a></span></h5>
             </div>
-        </>
+        </div>
     )
 
 }

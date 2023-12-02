@@ -26,8 +26,14 @@ export default function Navigation() {
 
     return (
         <div> 
-            <NavLinks currentPage={currentPage} handlePageChange={handlePageChange} />
-            <main className='mx-3'>{renderPage()}</main>
+            <header className='d-flex justify-content-between w-100'>
+                <h2 id='name'>Pamela Crainer</h2>
+                <NavLinks currentPage={currentPage} handlePageChange={handlePageChange} />
+            </header>
+
+            <main className='mx-3 w-100 container'>
+                {renderPage()}
+            </main>
         </div>
     );
 }

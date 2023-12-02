@@ -55,7 +55,7 @@ a {
   font-size: 36px;
 }
 
-#about {
+#about, #contact {
   color: whitesmoke;
 }
 
@@ -70,3 +70,6 @@ a {
   text-decoration: none;
 }
 
+#username-warning, #email-warning, #message-warning {
+  display: none;
+}

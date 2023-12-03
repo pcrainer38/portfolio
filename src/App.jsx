@@ -1,5 +1,5 @@
 import './App.css';
-import Navigation from './components/Navigation';
+import Header from './components/Header';
 
 
 function App() {
@@ -7,7 +7,7 @@ function App() {
     <>
   
     <div className='navigation'>
-    <Navigation />
+    <Header />
     </div>
     
     </>

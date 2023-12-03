@@ -6,8 +6,8 @@
       'Lucida Sans', Arial, sans-serif;
   }
 
-body {
-    /* background-color: whitesmoke; */
+.body {
+    background-color: rgb(204, 202, 202);
     background-image: url("../src/assets/pete-godfrey-unsplash.jpg");
     background-size: 100vw 25vh;
     background-repeat: no-repeat;
@@ -23,21 +23,15 @@ a {
     text-decoration: none;
 }
 
-.img1 {
+.img1, .img2 {
   image-rendering: auto;
   border: black solid 2px;
   width: 400px;
   height: auto;
-  margin: 2px;
+  
 }
 
-.img2 {
-  image-rendering: auto;
-  border: black solid 2px;
-  width: 400px;
-  height: auto;
-  margin: 2px;
-}
+
 
 .photo {
   image-rendering: auto;

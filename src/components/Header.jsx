@@ -27,14 +27,13 @@ export default function Header() {
 
     return (
         <div> 
-            <header className='d-flex justify-content-between w-100 mt-5 mx-2'>
+            <header className='header d-flex justify-content-between w-100 mt-5 mx-2'>
     
                 <h2 id='name'>Pamela Crainer</h2>
-                <img src='../src/assets/Pam.jpg' className='photo'></img>
                 <Navigation currentPage={currentPage} handlePageChange={handlePageChange} />
             </header>
 
-            <main className='container mx-3 mt-5 w-100 p-5'>
+            <main className='container mx-3 mt-5 w-100  p-5'>
                 {renderPage()}
             </main>
             <footer className='footer d-flex'>

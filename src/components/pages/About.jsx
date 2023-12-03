@@ -5,7 +5,7 @@ const About = () => {
     return(
         <div className='about mt-5 mx-5' id='about'>
             
-            <img src='../src/assets/Pam.jpg' className='photo'></img>
+            <img src='../src/Pam.jpg' className='photo'></img>
             
             <h3 className='mt-2'>About</h3>
             <br/>

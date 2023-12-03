@@ -29,7 +29,7 @@ const Resume = () => {
                         <li>MongoDB, Mongoose</li>
                     </ul>
                 </div>
-                <h5>Download my resume <span><a href='../src/assets/resume.pdf' target='_blank'>here.</a></span></h5>
+                <h5>Download my resume <span><a href='../src/resume.pdf' target='_blank'>here.</a></span></h5>
             </div>
         </div>
     )

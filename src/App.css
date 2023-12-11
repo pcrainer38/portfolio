@@ -31,8 +31,6 @@ a {
   
 }
 
-
-
 .photo {
   image-rendering: auto;
   border: black solid 2px;
@@ -81,5 +79,4 @@ a {
   justify-content: center;
   align-items: center;
 }
-
 
